@@ -5,7 +5,7 @@ const BLOG = {
   LINK: 'https://persistent-animantarx-706.notion.site/a1c348e6f6e74dd4a380a70cf44128ac', // 网站地址
   KEYWORDS: 'Notion, 博客', // 网站关键词 英文逗号隔开
   NOTION_PAGE_ID:
-  process.env.NOTION_PAGE_ID || 'a1c348e6f6e74dd4a380a70cf44128ac', // Important page_id！！！Duplicate Template from  https://www.notion.so/tanghh/02ab3b8678004aa69e9e415905ef32a5
+  process.env.NOTION_PAGE_ID || '02ab3b8678004aa69e9e415905ef32a5', // Important page_id！！！Duplicate Template from  https://www.notion.so/tanghh/02ab3b8678004aa69e9e415905ef32a5
   NOTION_ACCESS_TOKEN: process.env.NOTION_ACCESS_TOKEN || '', // Useful if you prefer not to make your database public
   DEBUG: process.env.NEXT_PUBLIC_DEBUG || false, // 是否显示调试按钮
 
@@ -32,7 +32,7 @@ const BLOG = {
   SUB_PATH: '', // leave this empty unless you want to deploy in a folder
 
   POST_LIST_STYLE: 'page', // ['page','scroll] 文章列表样式:页码分页、单页滚动加载
-  POST_LIST_PREVIEW: process.env.NEXT_PUBLIC_POST_PREVIEW || 'true', //  是否在列表加载文章预览
+  POST_LIST_PREVIEW: process.env.NEXT_PUBLIC_POST_PREVIEW || 'false', //  是否在列表加载文章预览
   POST_PREVIEW_LINES: 12, // 预览博客行数
   POST_RECOMMEND_COUNT: 6, // 推荐文章数量
   POSTS_PER_PAGE: 6, // post counts per page
