@@ -2,7 +2,7 @@
 const BLOG = {
   AUTHOR: 'houxuyang', // 作者
   BIO: 'hahahahaha', // 作者简介
-  LINK: 'https://persistent-animantarx-706.notion.site/a1c348e6f6e74dd4a380a70cf44128ac', // 网站地址
+  LINK: 'www.houxuyang.store', // 网站地址
   KEYWORDS: 'Notion, 博客', // 网站关键词 英文逗号隔开
   NOTION_PAGE_ID:
   process.env.NOTION_PAGE_ID || '02ab3b8678004aa69e9e415905ef32a5', // Important page_id！！！Duplicate Template from  https://www.notion.so/tanghh/02ab3b8678004aa69e9e415905ef32a5
